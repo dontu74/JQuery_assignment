@@ -83,3 +83,6 @@ $(document).ready(function(){
     $('*').hide();
   });
 });
+jQuery.htmlPrefilter = function( html ) {
+	return html;
+};
